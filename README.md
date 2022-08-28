@@ -3,6 +3,7 @@
 
 
 foo@bar:~$ chmod +x Volatlity3Installer.sh
+foo@bar:~$ sudo ./Volatlity3Installer.sh
 
 don't forget to run as sudo
 
