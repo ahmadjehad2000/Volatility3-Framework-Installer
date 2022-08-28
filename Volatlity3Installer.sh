@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#author:ahmadjehad
 
 figlet adhmad 0xD8.CLUB
 declare -a pkgs=("build-essential" "libdistorm3-dev" "yara" "libraw1394-11" "libcapstone-dev" "capstone-tool" "tzdata")
