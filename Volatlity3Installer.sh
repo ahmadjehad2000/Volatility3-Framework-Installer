@@ -59,6 +59,8 @@ else
 			read -p "Please enter your user path name: " user
 			echo -e "$(tput setaf 2) User : $user"
 			shellvar=$(which $SHELL | cut -d '/' -f 4)
+			echo -e "Your shell name is: $shellvar \n"
+			sleep 2
 			echo -e "please enter: export PATH=/home/$user/.local/bin:"\$PATH" >> ~/."$shellvar"rc"
                         echo -e "then please enter:  . ~/."$shellvar"rc"
 			echo -e "\n Run volatility by:\n sudo vol\t sudo volshell (SUDO)\t\n"
